@@ -1,0 +1,322 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input{
+  border-radius: 10px;
+  border: none;
+  border-style: none;
+}
+
+.Bloco_Ec2{
+  height: 80%;
+  width: 600px;
+  background-color: rgb(84, 110, 221);
+  margin: 50px;
+
+  border-radius: 60px;
+}
+
+form{
+  padding:30px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_Label{
+  display: flex;
+  align-items:flex-start;
+  width: 400px;
+  padding: 10px;
+}
+.container_Label2{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.delete{
+  font-size: 20px;
+}
+
+h1{
+  padding: 20px;
+}
+
+input{
+  height: 20px;
+  width: 400px;
+  font-size: 19px;
+  outline: none;
+  
+}
+.inuputNI{
+  height: 20px;
+  width: 50px;
+  font-size: 19px;
+  outline: none;
+  margin-right: 350px;
+  
+}
+
+.inuputGB{
+  height: 20px;
+  width: 74px;
+  font-size: 19px;
+  outline: none;
+  position: relative;
+  
+}
+
+.container_size{
+  
+  width: 400px;
+  display: flex;
+  justify-content:flex-start ;
+}
+
+.container_Stora{
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.container_size span{
+  color: black;
+  font-weight:600 ;
+  font-size: 15px;
+  position: absolute;
+  bottom: 23.5%;
+  left: 40.5%;
+}
+
+label{
+font-size: 20px;
+}
+
+.Constainer_tag{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Constainer_tag span{
+  font-size: 29px;
+}
+
+.inputKey{
+  width: 100px;
+}
+
+.ReactTags__tags {
+  position: relative;
+}
+
+.ReactTags__clearAll {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  background: #f88d8d;
+  color: #fff;
+  border: none;
+}
+
+/* Styles for the input */
+.ReactTags__tagInput {
+  border-radius: 2px;
+  display: inline-block;
+}
+.ReactTags__tagInput input.ReactTags__tagInputField,
+.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  height: 31px;
+  margin: 0;
+  font-size: 12px;
+  border: 1px solid #eee;
+  min-width: 150px;
+}
+
+.ReactTags__editInput {
+  border-radius: 1px;
+}
+
+.ReactTags__editTagInput {
+  display: inline-flex;
+}
+
+/* Styles for selected tags */
+.ReactTags__selected span.ReactTags__tag {
+  border: 1px solid #ddd;
+  background: #63bcfd;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+.ReactTags__selected a.ReactTags__remove {
+  color: #aaa;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Styles for suggestions */
+.ReactTags__suggestions {
+  position: absolute;
+}
+.ReactTags__suggestions ul {
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 200px;
+}
+.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0;
+}
+.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+.ReactTags__remove {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
+
+.Inputdoleal{
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+}
+
+
+
+.switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #8d53c7;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #844FBA;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
